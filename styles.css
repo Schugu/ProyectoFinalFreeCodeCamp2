@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* ESTILO DE LA FONT IMPORTADA */
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* BODY */
+body {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+/* MAIN */
+main {
+    width: 100%;
+    height: auto;
+}
+
+/* PORTADA PRINCIPAL */
+.portada {
+    background-image: url(https://preview.redd.it/z6btu437zgi91.jpg?auto=webp&s=e633b3c45ce542ab88661d0e23db201d00a1b803);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.70);
+}
+.img-div__img{
+    max-height: 16.7em;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow:  0 0 20px 5px black;
+}
+.img-caption {
+    padding-top: 10px;
+    font-size: 10px;
+    color: white;
+}
+.main__h1 {
+    font-family: "Cedarville Cursive", cursive, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.70);
+    font-size: 4rem;
+    text-decoration: underline; 
+    text-shadow: 1px 1px 5px black;
+    padding-bottom: 40px;
+    max-width: 100%; 
+}
+
+/* PARRAFO PRINCIPAL */
+.parrafoPrincipal {
+    width: 100%;
+    height: auto;
+    background-color: #a90000;
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+    box-shadow: 0 0 10px black;
+    border-bottom: 5px solid #000000; 
+}
+.parrafoPrincipal__p {
+    text-indent: 20px;
+}
+
+/* SEGMENTO CARRERA */
+.divCarrera {
+    background-image: url(https://i.pinimg.com/originals/c7/98/89/c79889b1d6fdb01ab952cdaf0b210c5d.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+.contenedorCarrera{
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.contenedorCarrera__h2 {
+    /* text-shadow: 0 0 15px #a90000; */
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+}
+.contenedorCarrera__ul {
+    padding-left: 5%;
+    list-style-type: none;
+}
+.contenedorCarrera__ul-li{
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    background-image: url(https://i.pinimg.com/originals/3f/36/fc/3f36fcdd50dcbfd4a15080c52743a596.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.contenedorCarrera__ul-li > p > b {
+    /* color: #a90000; */
+    /* text-shadow: 0 0 15px #a90000; */
+    -webkit-text-stroke: 0.5px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px red; /* Para navegadores no basados en WebKit */
+}
+
+/* SEGMENTO DE MOMENTO DESTACADO */
+.contenedorMomentoDestacado {
+    width: 100%;
+    height: auto;
+    background-color: #0549a5;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-bottom: 5px solid #000000; 
+    text-align: justify;
+}
+.contenedorMomentoDestacado__h3 {
+    padding: 20px 0;
+    text-align: center;
+}
+.contenedorMomentoDestacado__p {
+    text-align: justify;
+    text-indent: 40px;
+}
+
+/* SEGMENTO DE OBRAS */
+.divObras {
+    background-image: url(https://i.redd.it/one-piece-manga-collage-of-most-of-my-fave-panels-v0-7eg63u1w7ehb1.jpg?width=960&format=pjpg&auto=webp&s=57b1b44df76af042a0c9ce77bf9bb28f2cae59ca);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.contenedorObras{
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.contenedorObras__h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    -webkit-text-stroke: 0.5px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.5px red; /* Para navegadores no basados en WebKit */
+}
+.obra{
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px 5px black;
+    width: 22rem;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 5px;
+}
+.obra__h3 {
+    font-size: 1.5rem;
+    border-bottom: 5px solid #a90000;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.obra__h4 {
+    font-size: 1.1rem;
+}
+.obra__img {
+    /* width: 28.75rem; */
+    width: 14.37rem;
+    /* height: 43.125rem; */
+    height: 21.5rem;
+    border: 1px solid black;
+    border-top: 5px solid #a90000;
+}
+
+/* SEGMENTO PERSONAJE FAVORITO DE ODA */
+.contenedorPersonajeFav {
+    width: 100%;
+    height: auto;
+    background-color: #ebe566;
+    color: #000000;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    border-bottom: 5px solid #000000; 
+    text-align: justify;
+    margin-top: 20px;
+}
+.contenedorPersonajeFav__h2, .contenedorPersonajeFav__h3 {
+    padding: 20px 0;
+    text-align: center;
+}
+.contenedorPersonajeFavFlex{ 
+    display: flex;
+}
+.contenedorPersonajeFav__img{
+    max-height: 30rem;
+    height: auto;
+    max-width: 100%;
+    padding-right: 20px;
+}
+.contenedorPersonajeFav__p {
+    text-align: justify;
+    text-indent: 40px;
+    margin-bottom: 10px;
+}
+
+/* SEGMENTO DE CURIOSIDADES */
+.divCuriosidades {
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/006/834/952/large/kid-1412-one-piece-collage.jpg?1501604340);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+.contendeorCuriosidades {
+    background-color: rgba(255, 255, 255, 0.80);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.contendeorCuriosidades__h2 {
+    /* text-shadow: 0 0 15px #a90000; */
+    padding-bottom: 20px;
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+}
+.contendeorCuriosidades__ul {
+    padding-left: 5%;
+    list-style-type: none;
+}
+.contenedorCuriosidades__ul-li {
+    padding-bottom: 10px;
+    padding-left: 2rem;
+    background-image: url(https://i.pinimg.com/originals/3f/36/fc/3f36fcdd50dcbfd4a15080c52743a596.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+/* OCULTO ESTE PARRAFO PORQUE ME GUSTARIA PONERLO EN EL FOOTER Y EN LA PAGINA DE FreeCodeCamp 
+QUIEREN QUE LO PONGA EN EL MAIN*/
+.parrafoHidden {
+    display: none;
+}
+
+/* FOOTER */
+.footer {
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to bottom, #000000, rgb(95, 0, 0));
+    box-shadow: 0 0 10px #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+.divFooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 20px;
+    gap: 2em;
+}
+
+/* FOOTER - IMAGEN */
+.divFooter__img {
+    max-height: 8em;
+    height: auto;
+    max-width: 100%;
+    margin-top: -1.35em; /* Puse esto para que se centre la imagen porque tiene un espacio invisible arriba */
+}
+
+/* FOOTER - CONTACTO */
+.divFooterContacto__ul{
+    display: flex;
+    flex-direction: column;
+}
+.divFooterContacto__ul-li {
+    list-style: none;
+}
+.divFooterContacto__ul__li-a {
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.divoFooterContactoLogo {
+    filter: invert();
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+/* FOOTER - REFERENCIAS */
+.divFooterReferencias__ul{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.divFooterReferencias__ul-li{
+    height: 1.5em;
+    padding: 2px 0;
+}
+
+
+
+/* LINKS DEL FOOTER */
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer a:hover {
+    -webkit-text-stroke: 0.7px red; /* Para navegadores WebKit (Chrome, Safari, etc.) */
+    text-stroke: 0.7px red; /* Para navegadores no basados en WebKit */
+}
+
+
+/* FOOTER - COPYRIGHT */
+.footerCopyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerCopyright__P{
+    padding: 10px;
+    font-size: 0.75em;
+    display: inline;
+    text-align: justify;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+    .contenedorPersonajeFavFlex {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center; 
+    }
+    .contenedorPersonajeFav__img {
+        margin: 0 auto 10px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .divFooter__img {
+        margin: 0 5em;
+    }
+}

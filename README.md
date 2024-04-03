@@ -18,15 +18,15 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tri
 
 ### Pruebas (Pruebas Técnicas a pasar): 
 - 🧪 Debes tener un elemento <code>main</code> con un <code>id</code> de <code>main</code>.
-- 🧪 Esperando: Tu <code>#img-div</code>, <code>#image</code>, <code>#img-caption</code>, <code>#tribute-info</code>, y <code>#tribute-link</code> deben ser descendientes de <code>#main</code>.
-- 🧪 Esperando: Debes tener un elemento con un <code>id</code> de <code>title</code>.
-- 🧪 Esperando: Tu <code>#title</code> no debe estar vacío.
-- 🧪 Esperando: Debes tener un elemento <code>figure</code> o <code>div</code> con un <code>id</code> de <code>img-div</code>.
-- 🧪 Esperando: Debes tener un elemento <code>img</code> con un <code>id</code> de <code>image</code>.
-- 🧪 Esperando: Tu <code>#image</code> debe ser descendiente de <code>#img-div</code>.
-- 🧪 Esperando: Deberías tener un elemento <code>figcaption</code> o <code>div</code> con un <code>id</code> de <code>img-caption</code>.
-- 🧪 Esperando: Tu <code>#img-caption</code> debe ser descendiente de <code>#img-div</code>.
-- 🧪 Esperando: Tu <code>#img-caption</code> no debe estar vacío.
+- 🧪 Tu <code>#img-div</code>, <code>#image</code>, <code>#img-caption</code>, <code>#tribute-info</code>, y <code>#tribute-link</code> deben ser descendientes de <code>#main</code>.
+- 🧪 Debes tener un elemento con un <code>id</code> de <code>title</code>.
+- 🧪 Tu <code>#title</code> no debe estar vacío.
+- 🧪 Debes tener un elemento <code>figure</code> o <code>div</code> con un <code>id</code> de <code>img-div</code>.
+- 🧪 Debes tener un elemento <code>img</code> con un <code>id</code> de <code>image</code>.
+- 🧪 Tu <code>#image</code> debe ser descendiente de <code>#img-div</code>.
+- 🧪 Deberías tener un elemento <code>figcaption</code> o <code>div</code> con un <code>id</code> de <code>img-caption</code>.
+- 🧪 Tu <code>#img-caption</code> debe ser descendiente de <code>#img-div</code>.
+- 🧪 Tu <code>#img-caption</code> no debe estar vacío.
 - 🧪 Debes tener un elemento con un <code>id</code> de <code>tribute-info</code>.
 - 🧪 Tu <code>#tribute-info</code> no debe estar vacío.
 - 🧪 Debes tener un elemento <code>a</code> con un <code>id</code> de <code>tribute-link</code>.

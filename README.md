@@ -1,11 +1,11 @@
-<h1 align='center'>Proyecto final N°2 del curso Responsive Web Design de FreeCodeCamp</h1>
+<h1 align='center'>🌟 Proyecto final N°2 del curso Responsive Web Design de FreeCodeCamp 🌟</h1>
 
-> Este proyecto es 2/5 para la certificación del curso.
+> Este proyecto es 2/5 para la certificación del curso. ✨
 
-## Página de homenaje a Eiichirō Oda (One Piece):
-Objetivo: Construir una aplicación que sea funcionalmente similar a https://tribute-page.freecodecamp.rocks. No copies este proyecto de demostración.
+## Página de homenaje a Eiichirō Oda (One Piece) 🏴‍☠️
+🎯 Objetivo: Construir una aplicación que sea funcionalmente similar a https://tribute-page.freecodecamp.rocks. No copies este proyecto de demostración.
 
-### Historias de usuario (Descripción): 
+### Historias de usuario (Descripción) 📋 
 1. El <code>main</code> debe tener un <code>id</code> correspondiente de <code>main</code>, que contiene los demás elementos.
 2. La página debe tener un elemento <code>id</code> de <code>title</code>, el cual contendrá una cadena de caracteres (p. ej. texto), que describe el tema de la página de homenaje (p. ej. "Dr. Norman Borlaug").
 3. La página debe tener tanto un elemento <code>figure</code> o un elemento <code>div</code> con un <code>id</code> de <code>img-div</code>.
@@ -16,7 +16,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tri
 8. Tú <code>#image</code> debe usar las propiedades <code>max-width</code> y <code>height</code> para redimensionarse en función de la anchura de su elemento padre, sin sobrepasar su tamaño original.
 9. Tu elemento <code>img</code> debe estar centrado con respecto al elemento que lo contiene.
 
-### Pruebas (Pruebas Técnicas a pasar): 
+### Pruebas (Pruebas Técnicas a pasar) ✔️🔬 
 - 🧪 Debes tener un elemento <code>main</code> con un <code>id</code> de <code>main</code>.
 - 🧪 Tu <code>#img-div</code>, <code>#image</code>, <code>#img-caption</code>, <code>#tribute-info</code>, y <code>#tribute-link</code> deben ser descendientes de <code>#main</code>.
 - 🧪 Debes tener un elemento con un <code>id</code> de <code>title</code>.
@@ -39,7 +39,7 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tri
   
 ------------
 
-### Instalación
+### Instalación 🛠️💻
 
 Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
@@ -61,7 +61,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto localmente:
 
 ------------
 
-### Capturas de pantalla
+### Capturas de pantalla 📸
 <img src='media/CapturaDePantalla1.png' alt='CapturaDePantalla1'>
 <img src='media/CapturaDePantalla2.png' alt='CapturaDePantalla2'>
 <img src='media/CapturaDePantalla3.png' alt='CapturaDePantalla3'>

@@ -17,25 +17,25 @@ Objetivo: Construir una aplicación que sea funcionalmente similar a https://tri
 9. Tu elemento <code>img</code> debe estar centrado con respecto al elemento que lo contiene.
 
 ### Pruebas (Pruebas Técnicas a pasar): 
-🧪 Debes tener un elemento <code>main</code> con un <code>id</code> de <code>main</code>.
-🧪 Esperando: Tu <code>#img-div</code>, <code>#image</code>, <code>#img-caption</code>, <code>#tribute-info</code>, y <code>#tribute-link</code> deben ser descendientes de <code>#main</code>.
-🧪 Esperando: Debes tener un elemento con un <code>id</code> de <code>title</code>.
-🧪 Esperando: Tu <code>#title</code> no debe estar vacío.
-🧪 Esperando: Debes tener un elemento <code>figure</code> o <code>div</code> con un <code>id</code> de <code>img-div</code>.
-🧪 Esperando: Debes tener un elemento <code>img</code> con un <code>id</code> de <code>image</code>.
-🧪 Esperando: Tu <code>#image</code> debe ser descendiente de <code>#img-div</code>.
-🧪 Esperando: Deberías tener un elemento <code>figcaption</code> o <code>div</code> con un <code>id</code> de <code>img-caption</code>.
-🧪 Esperando: Tu <code>#img-caption</code> debe ser descendiente de <code>#img-div</code>.
-🧪 Esperando: Tu <code>#img-caption</code> no debe estar vacío.
-🧪 Debes tener un elemento con un <code>id</code> de <code>tribute-info</code>.
-🧪 Tu <code>#tribute-info</code> no debe estar vacío.
-🧪 Debes tener un elemento <code>a</code> con un <code>id</code> de <code>tribute-link</code>.
-🧪 Tu <code>#tribute-link</code> debe tener un atributo <code>href</code> con un enlace.
-🧪 Tu <code>#tribute-link</code> debe tener un atributo <code>target</code> establecido en <code>_blank</code>.
-🧪 Tu elemento <code>img</code> debe tener un <code>display</code> de <code>block</code>.
-🧪 Tu <code>#image</code> debe tener un <code>max-width</code> de <code>100%</code>.
-🧪 Tu <code>#image</code> debe tener un <code>height</code> de <code>auto</code>.
-🧪 Tu <code>#image</code> debe estar centrado con respecto al elemento que lo contiene.
+- 🧪 Debes tener un elemento <code>main</code> con un <code>id</code> de <code>main</code>.
+- 🧪 Esperando: Tu <code>#img-div</code>, <code>#image</code>, <code>#img-caption</code>, <code>#tribute-info</code>, y <code>#tribute-link</code> deben ser descendientes de <code>#main</code>.
+- 🧪 Esperando: Debes tener un elemento con un <code>id</code> de <code>title</code>.
+- 🧪 Esperando: Tu <code>#title</code> no debe estar vacío.
+- 🧪 Esperando: Debes tener un elemento <code>figure</code> o <code>div</code> con un <code>id</code> de <code>img-div</code>.
+- 🧪 Esperando: Debes tener un elemento <code>img</code> con un <code>id</code> de <code>image</code>.
+- 🧪 Esperando: Tu <code>#image</code> debe ser descendiente de <code>#img-div</code>.
+- 🧪 Esperando: Deberías tener un elemento <code>figcaption</code> o <code>div</code> con un <code>id</code> de <code>img-caption</code>.
+- 🧪 Esperando: Tu <code>#img-caption</code> debe ser descendiente de <code>#img-div</code>.
+- 🧪 Esperando: Tu <code>#img-caption</code> no debe estar vacío.
+- 🧪 Debes tener un elemento con un <code>id</code> de <code>tribute-info</code>.
+- 🧪 Tu <code>#tribute-info</code> no debe estar vacío.
+- 🧪 Debes tener un elemento <code>a</code> con un <code>id</code> de <code>tribute-link</code>.
+- 🧪 Tu <code>#tribute-link</code> debe tener un atributo <code>href</code> con un enlace.
+- 🧪 Tu <code>#tribute-link</code> debe tener un atributo <code>target</code> establecido en <code>_blank</code>.
+- 🧪 Tu elemento <code>img</code> debe tener un <code>display</code> de <code>block</code>.
+- 🧪 Tu <code>#image</code> debe tener un <code>max-width</code> de <code>100%</code>.
+- 🧪 Tu <code>#image</code> debe tener un <code>height</code> de <code>auto</code>.
+- 🧪 Tu <code>#image</code> debe estar centrado con respecto al elemento que lo contiene.
   
 ------------
 

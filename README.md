@@ -2,7 +2,7 @@
 
 > Este proyecto es 2/5 para la certificación del curso. ✨
 
-## Página de homenaje a Eiichirō Oda (One Piece) 🏴‍☠️
+## Página de homenaje a Eiichirō Oda (One Piece) 👒🏴‍☠️
 🎯 Objetivo: Construir una aplicación que sea funcionalmente similar a https://tribute-page.freecodecamp.rocks. No copies este proyecto de demostración.
 
 ### Historias de usuario (Descripción) 📋 
